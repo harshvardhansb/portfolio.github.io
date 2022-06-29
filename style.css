@@ -118,62 +118,113 @@ nav ul li a{
     color: rgb(26, 255, 198);
 }
 
+
+/* about section css */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+
+:root{
+    --color:rgb(95, 237, 204);
+}
+
 .about{
-	width: 100%;
-	padding: 100px 0px;
-	background-color: #000000;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #000000;
 }
-.about img{
-	height: auto;
-	width: 430px;
+
+.about{
+    width: 100%;
+    /* max-width: 1160px; */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.left img{
+    max-width: 50vh;
+    width: 50vh;
     border-radius: 30%;
+    margin-left: 25vh;
+    height: auto;
+    vertical-align: middle;
+    
+    
 }
-.about-text{
-	width: 550px;
+.right > *{
+    margin-bottom: 1.1rem;
+    color: #fff;
+    margin-left: 10vh;
 }
-.main{
-	width: 1130px;
-	max-width: 95%;
-	margin: 0 auto;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
+.right h4{
+    font-weight: 550;
+    color: #000000;
+    background: var(--color);
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 16px;
+    border-radius: 4px;
 }
-.about-text h2{
-	color: white;
-	font-size: 75px;
-	text-transform: capitalize;
-	margin-bottom: 20px;
+.right h1{
+    font-size: 2rem;
+    font-weight: 800;
 }
-.about-text h5{
-	color: white;
-	letter-spacing: 2px;
-	font-size: 22px;
-	margin-bottom: 25px;
-	text-transform: capitalize;
+.right p{
+    text-align: justify;
 }
-.about-text p{
-	color: rgb(171, 216, 205);
-	letter-spacing: 1px;
-	line-height: 28px;
-	font-size: 18px;
-	margin-bottom: 45px;
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 25px;
+    border: 2px solid var(--color);
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
 }
-.about-bt{
-	background-color:rgb(26, 255, 198);
-	color: white;
-	text-decoration: none;
-	border: 2px solid transparent;
-	font-weight: bold;
-	padding: 13px 30px;
-	border-radius: 30px;
-	transition: .4s; 
+.btn::after{
+    content: "";
+    background: var(--color);
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    z-index: -1;
+    transition: width .5s ease;
 }
-.about-bt:hover{
-	background-color: transparent;
-	border: 2px solid rgb(26, 255, 198);
-	cursor: pointer;
+.btn:hover::after{
+    width: 100%;
+    
 }
+@media (max-width:800px){
+    .grid{
+        grid-template-columns: 1fr;
+    }
+
+    .left img{
+        max-width: 50vh;
+        width: 50vh;
+        
+        margin-left: 6vh;
+        height: auto;
+        vertical-align: middle;
+        
+        
+    }
+
+    
+
+
+
+}
+
 
 .hamburger{
     display: block;
@@ -217,6 +268,7 @@ nav ul li a{
     min-height: 100vh;
     z-index:98;
     background-color: #101010;
+    color: white;
     padding-top:120px ;
     transition: 0.4s;
 
@@ -233,11 +285,11 @@ nav ul li a{
     max-width: 200px;
     margin: 0 auto 16px;
     text-align: center;
-    
+    color: #EEEEEE;
     margin-bottom: 16px;
     padding: 12px 16px;
     background-color: #1b1b1b;
-    
+    scroll-behavior: smooth;
     text-decoration: none;
 
 }
