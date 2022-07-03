@@ -13,6 +13,7 @@
     text-decoration: underline;
     text-underline-position: under;
     padding-bottom: 3rem;
+    padding-top: auto;
     margin-bottom: 0;
 }
 
@@ -81,7 +82,7 @@ nav ul li a:hover{
 
     background-color: rgb(26, 255, 198);
     padding: 1vh;
-    border-radius: 20%;
+    
     cursor: pointer;
     color:#242424 ;
     font-weight: 500;
@@ -97,7 +98,7 @@ nav ul li a{
     color: #fff;
     text-decoration: none;
     padding: 1vh;
-    border-radius: 20%;
+    border-radius: 8px;
     cursor: pointer;
   
     font-weight: 500;
@@ -482,8 +483,8 @@ body{
 .timeline-section{
 	background-color: #000000;
 	min-height: 100vh;
-	padding: 100px 15px;
-    margin-bottom: 30px;
+	padding: 1rem 15px;
+    margin-bottom: 8rem;
 }
 .timeline-items{
 	max-width: 1000px;
@@ -573,6 +574,7 @@ body{
     width: 1200px;
     display: flex;
     justify-content: center;
+    margin-bottom: 1rem;
     align-items: center;
     flex-wrap: wrap;
     background-color: #000000;
