@@ -11,6 +11,17 @@ hamburger.addEventListener('click',function(){
 });
 
 
+mobile_nav.addEventListener('click',function(){
+
+    // this.classList.toggle('is-active')
+    hamburger.classList.toggle('is-active')
+    mobile_nav.classList.toggle('is-active')
+
+});
+
+
+
+
 
 
 
