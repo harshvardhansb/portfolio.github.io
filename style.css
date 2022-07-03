@@ -13,7 +13,8 @@
     text-decoration: underline;
     text-underline-position: under;
     padding-bottom: 3rem;
-    padding-top: auto;
+    margin-top: 22rem;
+    padding-top: 10rem;
     margin-bottom: 0;
 }
 
@@ -484,7 +485,7 @@ body{
 	background-color: #000000;
 	min-height: 100vh;
 	padding: 1rem 15px;
-    margin-bottom: 8rem;
+    padding-bottom: 8rem;
 }
 .timeline-items{
 	max-width: 1000px;
@@ -574,6 +575,7 @@ body{
     width: 1200px;
     display: flex;
     justify-content: center;
+    margin-top: 25rem;
     margin-bottom: 1rem;
     align-items: center;
     flex-wrap: wrap;
