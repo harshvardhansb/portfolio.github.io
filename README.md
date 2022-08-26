@@ -11,9 +11,11 @@ It's my personal portfolio website .
 
 ![](ss/ss2.png)
 
-#### A portfolio Website to showcase my work. It was my most fun to do project
-#### Used HTML,CSS with different frameworks like Tailwind and Bootstrap
-#### Also used ionic.io to create a better UI 
+# Overview
+
+- A portfolio Website to showcase my work. It was my most fun to do project
+- Used HTML,CSS with different frameworks like Tailwind and Bootstrap
+- Also used ionic.io to create a better UI 
 
 
 
