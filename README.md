@@ -1,17 +1,16 @@
-# persolnalportfolio.github.io
-It's my personal portfolio website . 
+It's my personal portfolio website . 🧑‍💻
 
 
-
+# LINK 👇
 #### https://harshvardhansb.github.io/portfolio.github.io/
 
-## ScreenShots
+## ScreenShots 🖼️
 
 ![](ss/ss1.png)
 
 ![](ss/ss2.png)
 
-# Overview
+# Overview ✍️
 
 - A portfolio Website to showcase my work. It was my most fun to do project
 - Used HTML,CSS with different frameworks like Tailwind and Bootstrap
