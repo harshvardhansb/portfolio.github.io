@@ -7,9 +7,9 @@ It's my personal portfolio website .
 
 ## ScreenShots
 
-![](./Screenshot 2022-07-02 224902.png)
+![](./p1.png)
 
-![](./Screenshot 2022-07-02 224902.png)
+![](./p2.png)
 
 ### A portfolio Website to showcase my work. It was my most fun to do project
 ### Used HTML,CSS with different frameworks like Tailwind and Bootstrap
